@@ -1,0 +1,12 @@
+$green:#00c4b4;
+html {
+    font-size: 100px;
+}
+body {
+    margin: 0;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}

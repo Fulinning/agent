@@ -1,0 +1,133 @@
+@import "../common/clearform";
+header {
+    background: #333;
+    position: fixed;
+    top: 0;
+    height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    position: relative;
+    .iconfont {
+        position: absolute;
+        left: 0.05rem;
+        top: 0;
+        font-size: 0.2rem;
+    }
+}
+
+.search {
+    height: 0.5rem;
+    border-bottom: 2px solid #ccc;
+    font-size: 0;
+    input {
+        font-size: 0.13rem;
+        padding-left: 0.1rem;
+        margin: 0.08rem 0.15rem 0.1rem;
+        width: 3.1rem;
+        height: 0.32rem;
+        border: 1px solid #dfdfdf;
+    }
+     ::-webkit-input-placeholder {
+        color: #999;
+    }
+     ::-moz-placeholder {
+        color: #999;
+    }
+     ::-ms-input-placeholder {
+        color: #999;
+    }
+}
+
+.agent-list {
+    background: #f8f8f8;
+    font-size: 0.14rem;
+    position: absolute;
+    width: 100%;
+    top: 1.02rem;
+    bottom: 0.51rem;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    .agent-head {
+        height: 0.5rem;
+        line-height: 0.5rem;
+        color: #999;
+    }
+    .agent-body {
+        height: 0.6rem;
+        line-height: 0.6rem;
+        color: #333;
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .agent-name {
+        float: left;
+        box-sizing: border-box;
+        width: 25%;
+        padding-left: 0.1rem;
+    }
+    .agent-account {
+        float: left;
+        width: 30%;
+    }
+    .agent-money {
+        float: left;
+        width: 30%;
+    }
+    .dayu {
+        float: left;
+        width: 15%;
+        color: $green;
+    }
+    .more {
+        color: $green;
+        font-weight: bold;
+        font-size: 0.14rem;
+        height: 0.4rem;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+}
+.add-agent {
+    position: fixed;
+    right: 0.15rem;
+    bottom: 0.6rem;
+    color: #fff;
+    background: rgba($color: $green, $alpha: 0.5);
+    font-size: 0.2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-radius: 50%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 3.6rem;
+    height: 0.5rem;
+    font-size: 0.12rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    >div {
+        width: 25%;
+        float: left;
+        position: relative;
+        .iconfont {
+            font-size: 0.3rem;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .agent {
+        >div {
+            position: relative;
+            top: 0.01rem;
+        }
+    }
+}

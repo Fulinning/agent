@@ -1,0 +1,71 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.18rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+
+.agent-information {
+  margin-top: 0.2rem; }
+  .agent-information > div {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.16rem;
+    color: #333;
+    position: relative; }
+    .agent-information > div .red-star {
+      font-size: 0.12rem;
+      color: red;
+      position: absolute;
+      left: 0.24rem;
+      top: -0.15rem; }
+    .agent-information > div label {
+      margin-left: 0.3rem;
+      width: 0.8rem;
+      display: inline-block; }
+    .agent-information > div input {
+      border: 1px solid #797979;
+      border-radius: 0.04rem;
+      height: 0.25rem;
+      width: 2.1rem; }
+  .agent-information p {
+    font-size: 0.12rem;
+    color: red;
+    text-align: center;
+    margin-bottom: 0.3rem; }
+
+.save {
+  width: 0.8rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  background: #00c4b4;
+  border-radius: 0.02rem;
+  font-size: 0.14rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.4rem;
+  text-align: center; }
+
+/*# sourceMappingURL=agent-add.css.map */

@@ -1,0 +1,45 @@
+@import "../common/clearform";
+header {
+    background: #333;
+    height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+}
+
+section {
+    font-size: 0.14rem;
+    color: #333;
+    margin-top: 45%;
+    .username,
+    .password {
+        margin: 0 0.2rem 0.3rem;
+        border: 1px solid #ccc;
+        padding: 0.1rem 0.2rem;
+        input {
+            font-size: 0.14rem;
+            width: 2.2rem;
+            padding-left: 0.1rem;
+        }
+         ::-webkit-input-placeholder {
+            color: #ccc;
+        }
+         ::-moz-placeholder {
+            color: #ccc;
+        }
+         ::-ms-input-placeholder {
+            color: #ccc;
+        }
+    }
+    .submit {
+        margin: 0 0.2rem;
+        background: $green;
+        text-align: center;
+        color: #fff;
+        font-size: 0.16rem;
+        letter-spacing: 0.02rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+    }
+}

@@ -1,0 +1,124 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.18rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+
+.search {
+  height: 0.5rem;
+  border-bottom: 2px solid #ccc;
+  font-size: 0; }
+  .search input {
+    font-size: 0.13rem;
+    padding-left: 0.1rem;
+    margin: 0.08rem 0.15rem 0.1rem;
+    width: 3.1rem;
+    height: 0.32rem;
+    border: 1px solid #dfdfdf; }
+  .search ::-webkit-input-placeholder {
+    color: #999; }
+  .search ::-moz-placeholder {
+    color: #999; }
+  .search ::-ms-input-placeholder {
+    color: #999; }
+
+.agent-list {
+  background: #f8f8f8;
+  font-size: 0.14rem;
+  position: absolute;
+  width: 100%;
+  top: 1.02rem;
+  bottom: 0.51rem;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  overflow-y: scroll; }
+  .agent-list .agent-head {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #999; }
+  .agent-list .agent-body {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: #333;
+    border-bottom: 1px solid #f2f2f2; }
+  .agent-list .agent-name {
+    float: left;
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 0.1rem; }
+  .agent-list .agent-account {
+    float: left;
+    width: 30%; }
+  .agent-list .agent-money {
+    float: left;
+    width: 30%; }
+  .agent-list .dayu {
+    float: left;
+    width: 15%;
+    color: #00c4b4; }
+  .agent-list .more {
+    color: #00c4b4;
+    font-weight: bold;
+    font-size: 0.14rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem; }
+
+.add-agent {
+  position: fixed;
+  right: 0.15rem;
+  bottom: 0.6rem;
+  color: #fff;
+  background: rgba(0, 196, 180, 0.5);
+  font-size: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 50%; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 3.6rem;
+  height: 0.5rem;
+  font-size: 0.12rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  text-align: center; }
+  footer > div {
+    width: 25%;
+    float: left;
+    position: relative; }
+    footer > div .iconfont {
+      font-size: 0.3rem; }
+    footer > div p {
+      margin: 0; }
+  footer .agent > div {
+    position: relative;
+    top: 0.01rem; }
+
+/*# sourceMappingURL=agent.css.map */
