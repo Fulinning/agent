@@ -50,6 +50,21 @@ header {
         margin-bottom: 0.3rem;
     }
 }
+#id,
+#account {
+    background: #ccc;
+    font-size: 0.14rem;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    color: #333;
+}
+ ::-moz-placeholder {
+    color: #333;
+}
+ ::-ms-input-placeholder {
+    color: #333;
+}
 .save {
     width: 0.8rem;
     height: 0.3rem;

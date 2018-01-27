@@ -1,0 +1,105 @@
+@import "../common/clearform";
+body {
+    background: #f8f8f8;
+}
+header {
+    background: #333;
+    position: fixed;
+    top: 0;
+    height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+    position: relative;
+    .iconfont {
+        position: absolute;
+        left: 0.05rem;
+        top: 0;
+        font-size: 0.2rem;
+    }
+    .pay {
+        position: absolute;
+        top: 0;
+        right: 0.1rem;
+        font-size: 0.14rem;
+        color: $green;
+    }
+}
+.table-header {
+    color: $green;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.14rem;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    >div {
+        float: left;
+        width: 33.3%;
+        height: 95%;
+        text-align: center;
+        position: relative;
+        &.active {
+            border-bottom: 3px solid $green;
+        }
+    }
+}
+.table-body {
+    >div {
+        display: none;
+        margin-top: 0.15rem;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        font-size: 0.14rem;
+        &.active {
+            display: block;
+        }
+        .line {
+            height: 0.5rem;
+            line-height: 0.5rem;
+            box-sizing: border-box;
+            padding-left: 0.15rem;
+            padding-top: 1px; 
+            position: relative;
+            &:nth-of-type(2n) {
+                background: #fff;
+            }
+            &:nth-of-type(2n+1) {
+                background: #f8f8f8;
+            }
+        }
+        .edit {
+            height: 0.34rem;
+            line-height: 0.34rem;
+            background: $green;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            margin: 0.08rem 0.15rem 0.08rem 0;
+        }
+        .agent-head,
+        .direct-head {
+            color: #999;
+        }
+        .agent-account {
+            width: 30%;
+            float: left;
+        }
+        .agent-name {
+            width: 30%;
+            float: left;
+        }
+        .agent-add-date {
+            width: 40%;
+            float: left;
+        }
+        .direct-name {
+            width: 30%;
+            float: left;
+        }
+        .direct-add-date {
+            width: 30%;
+            float: left;
+        }
+    }
+}

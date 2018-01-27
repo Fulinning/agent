@@ -16,7 +16,7 @@ header {
   height: 0.5rem;
   text-align: center;
   color: #fff;
-  font-size: 0.18rem;
+  font-size: 0.16rem;
   line-height: 0.5rem;
   position: relative; }
   header .iconfont {
@@ -66,14 +66,14 @@ header {
   .agent-list .agent-name {
     float: left;
     box-sizing: border-box;
-    width: 25%;
-    padding-left: 0.1rem; }
+    width: 28%;
+    padding-left: 0.15rem; }
   .agent-list .agent-account {
     float: left;
     width: 30%; }
   .agent-list .agent-money {
     float: left;
-    width: 30%; }
+    width: 27%; }
   .agent-list .dayu {
     float: left;
     width: 15%;
@@ -88,16 +88,16 @@ header {
 
 .add-agent {
   position: fixed;
-  right: 0.15rem;
+  right: 0.12rem;
   bottom: 0.6rem;
   color: #fff;
   background: rgba(0, 196, 180, 0.5);
   font-size: 0.2rem;
   font-weight: bold;
   text-align: center;
-  width: 0.5rem;
-  height: 0.5rem;
-  line-height: 0.5rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
   border-radius: 50%; }
 
 footer {
