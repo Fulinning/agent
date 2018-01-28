@@ -9,9 +9,6 @@ body {
   display: block;
   clear: both; }
 
-body {
-  background: #f8f8f8; }
-
 header {
   background: #333;
   position: fixed;
@@ -27,49 +24,57 @@ header {
     left: 0.05rem;
     top: 0;
     font-size: 0.2rem; }
-  header .pay {
-    position: absolute;
-    top: 0;
-    right: 0.1rem;
-    font-size: 0.14rem;
-    color: #00c4b4; }
 
-.table-header {
+.tab-header {
   color: #00c4b4;
   height: 0.5rem;
   line-height: 0.5rem;
   font-size: 0.14rem;
   border-bottom: 1px solid #ccc;
-  background: #fff; }
-  .table-header > div {
-    float: left;
-    width: 33.3%;
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around; }
+  .tab-header > div {
+    width: 33%;
     height: 95%;
     text-align: center;
     position: relative; }
-    .table-header > div.active {
+    .tab-header > div.active {
       border-bottom: 3px solid #00c4b4; }
 
-.table-body > div {
-  display: none;
+.tab-body > div {
+  display: none; }
+  .tab-body > div.active {
+    display: block; }
+
+body {
+  background: #f8f8f8; }
+
+.pay {
+  position: absolute;
+  top: 0;
+  right: 0.1rem;
+  font-size: 0.14rem;
+  color: #00c4b4; }
+
+.tab-body > div {
   margin-top: 0.15rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   font-size: 0.14rem; }
-  .table-body > div.active {
-    display: block; }
-  .table-body > div .line {
+  .tab-body > div .line {
     height: 0.5rem;
     line-height: 0.5rem;
     box-sizing: border-box;
     padding-left: 0.15rem;
     padding-top: 1px;
     position: relative; }
-    .table-body > div .line:nth-of-type(2n) {
+    .tab-body > div .line:nth-of-type(2n) {
       background: #fff; }
-    .table-body > div .line:nth-of-type(2n+1) {
+    .tab-body > div .line:nth-of-type(2n+1) {
       background: #f8f8f8; }
-  .table-body > div .edit {
+  .tab-body > div .edit {
     height: 0.34rem;
     line-height: 0.34rem;
     background: #00c4b4;
@@ -77,22 +82,22 @@ header {
     color: #fff;
     text-align: center;
     margin: 0.08rem 0.15rem 0.08rem 0; }
-  .table-body > div .agent-head,
-  .table-body > div .direct-head {
+  .tab-body > div .agent-head,
+  .tab-body > div .direct-head {
     color: #999; }
-  .table-body > div .agent-account {
+  .tab-body > div .agent-account {
     width: 30%;
     float: left; }
-  .table-body > div .agent-name {
+  .tab-body > div .agent-name {
     width: 30%;
     float: left; }
-  .table-body > div .agent-add-date {
+  .tab-body > div .agent-add-date {
     width: 40%;
     float: left; }
-  .table-body > div .direct-name {
+  .tab-body > div .direct-name {
     width: 30%;
     float: left; }
-  .table-body > div .direct-add-date {
+  .tab-body > div .direct-add-date {
     width: 30%;
     float: left; }
 

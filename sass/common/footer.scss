@@ -1,0 +1,27 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 3.6rem;
+    height: 0.5rem;
+    font-size: 0.12rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    >div {
+        width: 25%;
+        float: left;
+        position: relative;
+        .iconfont {
+            font-size: 0.3rem;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .agent {
+        >div {
+            position: relative;
+            top: 0.01rem;
+        }
+    }
+}

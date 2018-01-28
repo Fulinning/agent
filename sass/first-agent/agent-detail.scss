@@ -1,65 +1,30 @@
 @import "../common/clearform";
+@import "../common/header";
+@import "../common/tab";
 body {
     background: #f8f8f8;
 }
-header {
-    background: #333;
-    position: fixed;
+
+.pay {
+    position: absolute;
     top: 0;
-    height: 0.5rem;
-    text-align: center;
-    color: #fff;
-    font-size: 0.16rem;
-    line-height: 0.5rem;
-    position: relative;
-    .iconfont {
-        position: absolute;
-        left: 0.05rem;
-        top: 0;
-        font-size: 0.2rem;
-    }
-    .pay {
-        position: absolute;
-        top: 0;
-        right: 0.1rem;
-        font-size: 0.14rem;
-        color: $green;
-    }
-}
-.table-header {
-    color: $green;
-    height: 0.5rem;
-    line-height: 0.5rem;
+    right: 0.1rem;
     font-size: 0.14rem;
-    border-bottom: 1px solid #ccc;
-    background: #fff;
-    >div {
-        float: left;
-        width: 33.3%;
-        height: 95%;
-        text-align: center;
-        position: relative;
-        &.active {
-            border-bottom: 3px solid $green;
-        }
-    }
+    color: $green;
 }
-.table-body {
+
+.tab-body {
     >div {
-        display: none;
         margin-top: 0.15rem;
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
         font-size: 0.14rem;
-        &.active {
-            display: block;
-        }
         .line {
             height: 0.5rem;
             line-height: 0.5rem;
             box-sizing: border-box;
             padding-left: 0.15rem;
-            padding-top: 1px; 
+            padding-top: 1px;
             position: relative;
             &:nth-of-type(2n) {
                 background: #fff;

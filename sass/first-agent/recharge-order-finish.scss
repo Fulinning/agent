@@ -1,0 +1,19 @@
+@import "../common/clearform";
+@import "../common/header";
+body {
+    background: #f2f2f2;
+}
+section {
+    >div{
+        margin: 0.2rem 0;
+        font-size: 0.14rem;
+        padding: 0 0.15rem;
+        color: #333;
+    }
+    .recharge-money span {
+        color: $green; 
+    }
+    .really-money span {
+        color: $green; 
+    }
+}

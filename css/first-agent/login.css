@@ -11,11 +11,19 @@ body {
 
 header {
   background: #333;
+  position: fixed;
+  top: 0;
   height: 0.5rem;
   text-align: center;
   color: #fff;
   font-size: 0.16rem;
-  line-height: 0.5rem; }
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
 
 section {
   font-size: 0.14rem;
@@ -30,7 +38,8 @@ section {
     section .password input {
       font-size: 0.14rem;
       width: 2.2rem;
-      padding-left: 0.1rem; }
+      padding-left: 0.1rem;
+      border: none; }
     section .username ::-webkit-input-placeholder,
     section .password ::-webkit-input-placeholder {
       color: #ccc; }

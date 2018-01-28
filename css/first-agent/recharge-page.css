@@ -1,0 +1,102 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+
+body {
+  background: #f2f2f2; }
+
+.money-btn {
+  color: #00c4b4;
+  font-size: 0.16rem; }
+  .money-btn > div {
+    float: left;
+    width: 0.94rem;
+    height: 0.45rem;
+    border: 2px solid #00c4b4;
+    border-radius: 0.05rem;
+    margin: 0.2rem 0 0 0.2rem;
+    box-sizing: border-box;
+    padding-right: 0.25rem;
+    background: #fff;
+    position: relative;
+    text-align: center; }
+    .money-btn > div .number {
+      font-weight: bold;
+      font-size: 0.17rem;
+      line-height: 0.4rem; }
+    .money-btn > div .font {
+      position: absolute;
+      right: 0.01rem;
+      bottom: 0.08rem;
+      font-size: 0.13rem; }
+
+.input-area {
+  font-size: 0.15rem;
+  color: #00c4b4;
+  padding: 0 0.2rem;
+  margin: 0.3rem 0; }
+  .input-area > div {
+    margin: 0.2rem 0;
+    height: 0.3rem;
+    line-height: 0.3rem; }
+    .input-area > div label {
+      display: inline-block;
+      width: 0.75rem; }
+    .input-area > div input {
+      border: 1px solid #00c4b4;
+      border-radius: 0.05rem;
+      height: 0.3rem; }
+  .input-area #else-money {
+    width: 2.35rem; }
+  .input-area #player-id {
+    width: 1.6rem; }
+  .input-area .see-detail {
+    color: #333;
+    margin-left: 0.1rem; }
+
+.detail {
+  display: none;
+  font-size: 0.14rem;
+  padding: 0 0.2rem;
+  margin-top: 0.2rem;
+  color: #333; }
+  .detail > div {
+    margin: 0.15rem 0; }
+  .detail .hint {
+    color: red; }
+
+.recharge-btn {
+  margin: 0 0.2rem;
+  background: #00c4b4;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  letter-spacing: 0.02rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  border-radius: 0.04rem; }
+
+/*# sourceMappingURL=recharge-page.css.map */

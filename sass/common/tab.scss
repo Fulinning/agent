@@ -1,0 +1,30 @@
+.tab-header {
+    color: $green;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.14rem;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    >div {
+        width: 33%;
+        height: 95%;
+        text-align: center;
+        position: relative;
+        &.active {
+            border-bottom: 3px solid $green;
+        }
+    }
+}
+
+.tab-body {
+    >div {
+        display: none;
+        &.active {
+            display: block;
+        }
+        
+    }
+}

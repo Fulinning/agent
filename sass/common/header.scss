@@ -1,0 +1,17 @@
+header {
+    background: #333;
+    position: fixed;
+    top: 0;
+    height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+    position: relative;
+    .iconfont {
+        position: absolute;
+        left: 0.05rem;
+        top: 0;
+        font-size: 0.2rem;
+    }
+}
