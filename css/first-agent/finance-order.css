@@ -25,27 +25,6 @@ header {
     top: 0;
     font-size: 0.2rem; }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 3.6rem;
-  height: 0.5rem;
-  font-size: 0.12rem;
-  background: #fff;
-  border-top: 1px solid #ccc;
-  text-align: center; }
-  footer > div {
-    width: 25%;
-    float: left;
-    position: relative; }
-    footer > div .iconfont {
-      font-size: 0.3rem; }
-    footer > div p {
-      margin: 0; }
-  footer .agent > div {
-    position: relative;
-    top: 0.01rem; }
-
 .agent-list {
   background: #f8f8f8;
   font-size: 0.14rem; }
@@ -87,46 +66,41 @@ footer {
     text-align: center;
     line-height: 0.4rem; }
 
-.bottom-btn {
-  position: fixed;
-  right: 0.12rem;
-  bottom: 0.6rem;
-  color: #fff;
-  background: rgba(0, 196, 180, 0.5);
-  font-size: 0.2rem;
-  font-weight: bold;
-  text-align: center;
-  width: 0.45rem;
+body {
+  background: #f2f2f2; }
+
+.top-info {
   height: 0.45rem;
   line-height: 0.45rem;
-  border-radius: 50%; }
+  border-bottom: 1px solid #ccc;
+  color: #00c4b4;
+  font-size: 0.14rem; }
+  .top-info #month {
+    display: inline-block;
+    height: 0.45rem;
+    width: 1rem;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+    padding-left: 0.2rem; }
+  .top-info .player-type {
+    float: right;
+    padding-right: 0.15rem; }
 
-.search {
+.return-money {
+  border-bottom: 1px solid #ccc;
   height: 0.5rem;
-  border-bottom: 2px solid #ccc;
-  font-size: 0; }
-  .search input {
-    font-size: 0.13rem;
-    padding-left: 0.1rem;
-    margin: 0.08rem 0.15rem 0.1rem;
-    width: 3.1rem;
-    height: 0.32rem;
-    border: 1px solid #dfdfdf; }
-  .search ::-webkit-input-placeholder {
-    color: #999; }
-  .search ::-moz-placeholder {
-    color: #999; }
-  .search ::-ms-input-placeholder {
-    color: #999; }
+  line-height: 0.5rem;
+  color: #00c4b4;
+  font-size: 0.14rem;
+  padding-left: 0.2rem;
+  background: #fff; }
 
 .agent-list {
-  position: absolute;
-  width: 100%;
-  top: 1.02rem;
-  bottom: 0.51rem;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  overflow-y: scroll; }
+  border-bottom: 1px solid #ccc; }
+  .agent-list .consume {
+    width: 22%; }
+  .agent-list .date {
+    text-align: right;
+    padding-right: 0.2rem; }
 
-/*# sourceMappingURL=agent.css.map */
+/*# sourceMappingURL=finance-order.css.map */

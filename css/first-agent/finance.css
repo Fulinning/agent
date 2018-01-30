@@ -110,29 +110,23 @@ footer {
     text-align: center;
     line-height: 0.4rem; }
 
-.bottom-btn {
-  position: fixed;
-  right: 0.12rem;
-  bottom: 0.6rem;
-  color: #fff;
-  background: rgba(0, 196, 180, 0.5);
-  font-size: 0.2rem;
-  font-weight: bold;
-  text-align: center;
-  width: 0.45rem;
+body {
+  background: #f8f8f8; }
+
+.top-info {
   height: 0.45rem;
   line-height: 0.45rem;
-  border-radius: 50%; }
-
-.hint {
-  height: 0.35rem;
+  background: #fff;
   border-bottom: 1px solid #ccc;
-  padding: 0 0.15rem;
-  font-size: 0.13rem;
-  color: red;
-  line-height: 0.35rem; }
-  .hint span {
-    float: right; }
+  color: #00c4b4;
+  font-size: 0.14rem; }
+  .top-info #month {
+    display: inline-block;
+    height: 0.45rem;
+    width: 1rem;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+    padding-left: 0.2rem; }
 
 .agent-list {
   position: absolute;
@@ -144,4 +138,12 @@ footer {
   overflow: hidden;
   overflow-y: scroll; }
 
-/*# sourceMappingURL=recharge.css.map */
+.agent-body .consume {
+  box-sizing: border-box;
+  padding-left: 0.15rem; }
+.agent-body .dayu {
+  width: 12%;
+  box-sizing: border-box;
+  padding-left: 0.15rem; }
+
+/*# sourceMappingURL=finance.css.map */

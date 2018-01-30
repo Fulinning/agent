@@ -1,0 +1,46 @@
+@import "../common/clearform";
+@import "../common/header";
+@import "../common/agent-list";
+
+body {
+    background: #f2f2f2;
+}
+.top-info {
+    height: 0.45rem;
+    line-height: 0.45rem;
+    border-bottom: 1px solid #ccc;
+    color: $green;
+    font-size: 0.14rem;
+    #month {
+        display: inline-block;
+        height: 0.45rem;
+        width: 1rem;
+        box-sizing: border-box;
+        font-size: 0.14rem;
+        padding-left: 0.2rem;
+    }
+    .player-type {
+        float: right;
+        padding-right: 0.15rem;
+    }
+}
+.return-money {
+    border-bottom: 1px solid #ccc;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: $green;
+    font-size: 0.14rem;
+    padding-left: 0.2rem;
+    background: #fff;
+}
+
+.agent-list {
+    border-bottom: 1px solid #ccc;
+    .consume {
+        width: 22%;
+    }
+    .date {
+        text-align: right;
+        padding-right: 0.2rem;
+    }
+}
