@@ -1,0 +1,58 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
+
+.bottom-btn {
+  position: fixed;
+  right: 0.12rem;
+  bottom: 0.6rem;
+  color: #fff;
+  background: rgba(0, 196, 180, 0.5);
+  font-size: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-radius: 50%; }
+
+.submit-btn {
+  font-size: 0.14rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: #00c4b4;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0.08rem 0.15rem; }
+
+/*# sourceMappingURL=mine-bank-home.css.map */

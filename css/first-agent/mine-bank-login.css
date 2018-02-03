@@ -1,0 +1,74 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
+
+.login {
+  font-size: 0.14rem;
+  color: #333;
+  margin-top: 45%; }
+  .login .line {
+    margin: 0 0.2rem 0.3rem;
+    border: 1px solid #ccc;
+    padding: 0.1rem 0.2rem;
+    background: #fff; }
+    .login .line input {
+      font-size: 0.14rem;
+      width: 2.2rem;
+      padding-left: 0.1rem;
+      border: none; }
+    .login .line ::-webkit-input-placeholder {
+      color: #ccc; }
+    .login .line ::-moz-placeholder {
+      color: #ccc; }
+    .login .line ::-ms-input-placeholder {
+      color: #ccc; }
+  .login .submit {
+    margin: 0 0.2rem;
+    background: #00c4b4;
+    text-align: center;
+    color: #fff;
+    font-size: 0.16rem;
+    letter-spacing: 0.02rem;
+    height: 0.4rem;
+    line-height: 0.4rem; }
+
+body {
+  background: #f2f2f2; }
+
+.login .line ::-webkit-input-placeholder {
+  color: #333; }
+.login .line ::-moz-placeholder {
+  color: #333; }
+.login .line ::-ms-input-placeholder {
+  color: #333; }
+
+/*# sourceMappingURL=mine-bank-login.css.map */

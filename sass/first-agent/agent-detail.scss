@@ -1,16 +1,9 @@
 @import "../common/clearform";
 @import "../common/header";
 @import "../common/tab";
+@import "../common/btn";
 body {
     background: #f8f8f8;
-}
-
-.pay {
-    position: absolute;
-    top: 0;
-    right: 0.1rem;
-    font-size: 0.14rem;
-    color: $green;
 }
 
 .tab-body {
@@ -33,14 +26,8 @@ body {
                 background: #f8f8f8;
             }
         }
-        .edit {
-            height: 0.34rem;
-            line-height: 0.34rem;
-            background: $green;
-            font-weight: bold;
-            color: #fff;
-            text-align: center;
-            margin: 0.08rem 0.15rem 0.08rem 0;
+        .submit-btn {
+            margin-left: 0;
         }
         .agent-head,
         .direct-head {

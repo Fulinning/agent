@@ -1,0 +1,15 @@
+.info {
+    margin: 0.1rem 0;
+    font-size: 0.13rem;
+    background: #fff;
+    line-height: 0.45rem;
+    >div {
+        position: relative;
+        padding-left: 0.15rem;        
+        border-bottom: 1px solid #f2f2f2;
+        span {
+            float: right;
+            margin-right: 0.3rem;
+        }
+    }
+}

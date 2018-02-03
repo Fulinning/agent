@@ -24,6 +24,12 @@ header {
     left: 0.05rem;
     top: 0;
     font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
 
 .tab-header {
   color: #00c4b4;
@@ -48,15 +54,32 @@ header {
   .tab-body > div.active {
     display: block; }
 
+.bottom-btn {
+  position: fixed;
+  right: 0.12rem;
+  bottom: 0.6rem;
+  color: #fff;
+  background: rgba(0, 196, 180, 0.5);
+  font-size: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-radius: 50%; }
+
+.submit-btn {
+  font-size: 0.14rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: #00c4b4;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0.08rem 0.15rem; }
+
 body {
   background: #f8f8f8; }
-
-.pay {
-  position: absolute;
-  top: 0;
-  right: 0.1rem;
-  font-size: 0.14rem;
-  color: #00c4b4; }
 
 .tab-body > div {
   margin-top: 0.15rem;
@@ -74,14 +97,8 @@ body {
       background: #fff; }
     .tab-body > div .line:nth-of-type(2n+1) {
       background: #f8f8f8; }
-  .tab-body > div .edit {
-    height: 0.34rem;
-    line-height: 0.34rem;
-    background: #00c4b4;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    margin: 0.08rem 0.15rem 0.08rem 0; }
+  .tab-body > div .submit-btn {
+    margin-left: 0; }
   .tab-body > div .agent-head,
   .tab-body > div .direct-head {
     color: #999; }

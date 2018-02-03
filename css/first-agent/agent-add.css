@@ -24,6 +24,12 @@ header {
     left: 0.05rem;
     top: 0;
     font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
 
 .agent-information {
   margin-top: 0.2rem; }

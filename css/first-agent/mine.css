@@ -1,0 +1,103 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 3.6rem;
+  height: 0.5rem;
+  font-size: 0.12rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #333; }
+  footer > div {
+    width: 25%;
+    float: left;
+    position: relative; }
+    footer > div .iconfont {
+      font-size: 0.3rem; }
+    footer > div p {
+      margin: 0; }
+  footer .agent > div {
+    position: relative;
+    top: 0.01rem; }
+
+.info {
+  margin: 0.1rem 0;
+  font-size: 0.13rem;
+  background: #fff;
+  line-height: 0.45rem; }
+  .info > div {
+    position: relative;
+    padding-left: 0.15rem;
+    border-bottom: 1px solid #f2f2f2; }
+    .info > div span {
+      float: right;
+      margin-right: 0.3rem; }
+
+body {
+  background: #f2f2f2;
+  font-size: 0.13rem; }
+
+section {
+  background: #fff;
+  margin: 0.1rem 0;
+  line-height: 0.45rem;
+  padding-left: 0.15rem;
+  position: relative; }
+  section .dayu {
+    position: absolute;
+    right: 0.1rem;
+    top: -0.02rem;
+    color: #00c4b4;
+    font-weight: bold; }
+  section > div .account-number {
+    border-radius: 50%;
+    height: 0.2rem;
+    width: 0.2rem;
+    background: red;
+    color: #fff;
+    line-height: 0.2rem;
+    text-align: center;
+    margin-top: 0.11rem; }
+
+.info {
+  padding: 0; }
+  .info span {
+    color: #00c4b4; }
+
+.agent-info .dayu {
+  line-height: 0.9rem; }
+
+/*# sourceMappingURL=mine.css.map */

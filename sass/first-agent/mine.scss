@@ -1,0 +1,44 @@
+@import "../common/clearform";
+@import "../common/header";
+@import "../common/footer";
+@import "../common/info";
+body {
+    background: #f2f2f2;
+    font-size: 0.13rem;
+}
+
+section {
+    background: #fff;
+    margin: 0.1rem 0;
+    line-height: 0.45rem;
+    padding-left: 0.15rem;
+    position: relative;
+    .dayu {
+        position: absolute;
+        right: 0.1rem;
+        top: -0.02rem;
+        color: $green;
+        font-weight: bold;
+    }
+    >div .account-number {
+        border-radius: 50%;
+        height: 0.2rem;
+        width: 0.2rem;
+        background: red;
+        color: #fff;
+        line-height: 0.2rem;
+        text-align: center;
+        margin-top: 0.11rem;
+    }
+}
+
+.info {
+    padding: 0;
+    span {
+        color: $green;
+    }
+}
+
+.agent-info .dayu {
+    line-height: 0.9rem;
+}

@@ -24,6 +24,12 @@ header {
     left: 0.05rem;
     top: 0;
     font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
 
 footer {
   position: fixed;
@@ -33,7 +39,8 @@ footer {
   font-size: 0.12rem;
   background: #fff;
   border-top: 1px solid #ccc;
-  text-align: center; }
+  text-align: center;
+  color: #333; }
   footer > div {
     width: 25%;
     float: left;
@@ -100,6 +107,16 @@ footer {
   height: 0.45rem;
   line-height: 0.45rem;
   border-radius: 50%; }
+
+.submit-btn {
+  font-size: 0.14rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: #00c4b4;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0.08rem 0.15rem; }
 
 .search {
   height: 0.5rem;

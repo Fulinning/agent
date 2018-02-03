@@ -14,4 +14,11 @@ header {
         top: 0;
         font-size: 0.2rem;
     }
+    .right {
+        position: absolute;
+        top: 0;
+        right: 0.1rem;
+        font-size: 0.14rem;
+        color: $green;
+    }
 }
