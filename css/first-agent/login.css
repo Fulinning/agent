@@ -9,6 +9,15 @@ body {
   display: block;
   clear: both; }
 
+.green {
+  color: #00c4b4; }
+
+.red {
+  color: red; }
+
+p {
+  margin: 0; }
+
 header {
   background: #333;
   position: fixed;

@@ -1,0 +1,23 @@
+@import "../common/clearform";
+@import "../common/header";
+@import "../common/btn";
+@import "../common/pop-up";
+
+body {
+    background: #f2f2f2;
+}
+
+.recharge-frame {
+    font-size: 0.13rem;
+    margin: 0.3rem 0.2rem;
+    input {
+        height: 0.3rem;
+        border: 1px solid #ccc;
+        border-radius: 0.05rem;
+        width: 2.4rem;
+    }
+}
+
+.submit-btn {
+    margin: 0.5rem 0.2rem;
+}

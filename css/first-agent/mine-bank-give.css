@@ -1,0 +1,121 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.green {
+  color: #00c4b4; }
+
+.red {
+  color: red; }
+
+p {
+  margin: 0; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
+
+.bottom-btn {
+  position: fixed;
+  right: 0.12rem;
+  bottom: 0.6rem;
+  color: #fff;
+  background: rgba(0, 196, 180, 0.5);
+  font-size: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-radius: 50%; }
+
+.submit-btn {
+  font-size: 0.14rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: #00c4b4;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0.08rem 0.15rem; }
+
+.money-btn {
+  color: #00c4b4;
+  font-size: 0.16rem; }
+  .money-btn > div {
+    float: left;
+    width: 0.94rem;
+    height: 0.45rem;
+    border: 2px solid #00c4b4;
+    border-radius: 0.05rem;
+    margin: 0.2rem 0 0 0.2rem;
+    box-sizing: border-box;
+    padding-right: 0.25rem;
+    background: #fff;
+    position: relative;
+    text-align: center; }
+    .money-btn > div .number {
+      font-weight: bold;
+      font-size: 0.17rem;
+      line-height: 0.4rem; }
+    .money-btn > div .font {
+      position: absolute;
+      right: 0.01rem;
+      bottom: 0.08rem;
+      font-size: 0.13rem; }
+
+body {
+  background: #f2f2f2; }
+
+.give-frame {
+  font-size: 0;
+  margin: 0.1rem; }
+  .give-frame p {
+    font-size: 0.14rem;
+    margin: 0.25rem 0 0 0.2rem; }
+  .give-frame input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-left: 0.2rem;
+    width: 2.8rem;
+    background: #f2f2f2; }
+  .give-frame .give-money {
+    height: 0.5rem;
+    font-size: 0.4rem; }
+  .give-frame .give-password,
+  .give-frame .play-id {
+    height: 0.35rem;
+    font-size: 0.14rem; }
+  .give-frame .money-number {
+    font-size: 0.12rem; }
+    .give-frame .money-number .all {
+      color: #00c4b4; }
+  .give-frame .submit-btn {
+    margin-top: 0.4rem; }
+
+/*# sourceMappingURL=mine-bank-give.css.map */

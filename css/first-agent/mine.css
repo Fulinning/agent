@@ -9,6 +9,15 @@ body {
   display: block;
   clear: both; }
 
+.green {
+  color: #00c4b4; }
+
+.red {
+  color: red; }
+
+p {
+  margin: 0; }
+
 header {
   background: #333;
   position: fixed;
@@ -83,7 +92,7 @@ section {
     color: #00c4b4;
     font-weight: bold; }
   section > div .account-number {
-    border-radius: 50%;
+    border-radius: 0.1rem;
     height: 0.2rem;
     width: 0.2rem;
     background: red;

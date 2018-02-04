@@ -1,0 +1,62 @@
+html {
+  font-size: 100px; }
+
+body {
+  margin: 0; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.green {
+  color: #00c4b4; }
+
+.red {
+  color: red; }
+
+p {
+  margin: 0; }
+
+header {
+  background: #333;
+  position: fixed;
+  top: 0;
+  height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  position: relative; }
+  header .iconfont {
+    position: absolute;
+    left: 0.05rem;
+    top: 0;
+    font-size: 0.2rem; }
+  header .right {
+    position: absolute;
+    top: 0;
+    right: 0.1rem;
+    font-size: 0.14rem;
+    color: #00c4b4; }
+
+body {
+  background: #f2f2f2; }
+
+.change-password {
+  background: #fff;
+  margin: 0.1rem 0;
+  font-size: 0.12rem; }
+  .change-password > div {
+    padding: 0 0.15rem;
+    border-bottom: 1px solid #f2f2f2;
+    height: 0.4rem;
+    line-height: 0.4rem; }
+    .change-password > div .dayu {
+      color: #00c4b4;
+      float: right;
+      position: relative;
+      font-weight: bold;
+      top: -0.4rem; }
+
+/*# sourceMappingURL=mine-setting.css.map */

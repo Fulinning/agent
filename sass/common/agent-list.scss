@@ -18,6 +18,12 @@
         width: 28%;
         padding-left: 0.15rem;
     }
+    .order-money {
+        float: left;
+        box-sizing: border-box;
+        width: 28%;
+        padding-left: 0.15rem;
+    }
     .agent-account {
         float: left;
         width: 30%;
@@ -27,6 +33,14 @@
         width: 27%;
     }
     .consume {
+        float: left;
+        width: 30%;
+    }
+    .order-type {
+        float: left;
+        width: 27%;
+    }
+    .order-time {
         float: left;
         width: 30%;
     }

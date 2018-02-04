@@ -9,6 +9,15 @@ body {
   display: block;
   clear: both; }
 
+.green {
+  color: #00c4b4; }
+
+.red {
+  color: red; }
+
+p {
+  margin: 0; }
+
 header {
   background: #333;
   position: fixed;
@@ -93,6 +102,11 @@ footer {
     box-sizing: border-box;
     width: 28%;
     padding-left: 0.15rem; }
+  .agent-list .order-money {
+    float: left;
+    box-sizing: border-box;
+    width: 28%;
+    padding-left: 0.15rem; }
   .agent-list .agent-account {
     float: left;
     width: 30%; }
@@ -100,6 +114,12 @@ footer {
     float: left;
     width: 27%; }
   .agent-list .consume {
+    float: left;
+    width: 30%; }
+  .agent-list .order-type {
+    float: left;
+    width: 27%; }
+  .agent-list .order-time {
     float: left;
     width: 30%; }
   .agent-list .all-return-money {
@@ -140,6 +160,31 @@ footer {
   color: #fff;
   text-align: center;
   margin: 0.08rem 0.15rem; }
+
+.money-btn {
+  color: #00c4b4;
+  font-size: 0.16rem; }
+  .money-btn > div {
+    float: left;
+    width: 0.94rem;
+    height: 0.45rem;
+    border: 2px solid #00c4b4;
+    border-radius: 0.05rem;
+    margin: 0.2rem 0 0 0.2rem;
+    box-sizing: border-box;
+    padding-right: 0.25rem;
+    background: #fff;
+    position: relative;
+    text-align: center; }
+    .money-btn > div .number {
+      font-weight: bold;
+      font-size: 0.17rem;
+      line-height: 0.4rem; }
+    .money-btn > div .font {
+      position: absolute;
+      right: 0.01rem;
+      bottom: 0.08rem;
+      font-size: 0.13rem; }
 
 .hint {
   height: 0.35rem;
