@@ -2,6 +2,7 @@
 @import "../common/header";
 @import "../common/footer";
 @import "../common/agent-list";
+@import "../common/tab";
 @import "../common/btn";
 .search {
     height: 0.5rem;
@@ -29,7 +30,7 @@
 .agent-list {
     position: absolute;
     width: 100%;
-    top: 1.02rem;
+    top: 1.52rem;
     bottom: 0.51rem;
     left: 0;
     right: 0;

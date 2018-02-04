@@ -114,6 +114,29 @@ footer {
     text-align: center;
     line-height: 0.4rem; }
 
+.tab-header {
+  color: #00c4b4;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.14rem;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around; }
+  .tab-header > div {
+    width: 33%;
+    height: 95%;
+    text-align: center;
+    position: relative; }
+    .tab-header > div.active {
+      border-bottom: 3px solid #00c4b4; }
+
+.tab-body > div {
+  display: none; }
+  .tab-body > div.active {
+    display: block; }
+
 .bottom-btn {
   position: fixed;
   right: 0.12rem;
@@ -184,7 +207,7 @@ footer {
 .agent-list {
   position: absolute;
   width: 100%;
-  top: 1.02rem;
+  top: 1.52rem;
   bottom: 0.51rem;
   left: 0;
   right: 0;

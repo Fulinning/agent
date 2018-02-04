@@ -21,14 +21,15 @@ section {
         font-weight: bold;
     }
     >div .account-number {
-        border-radius: 0.1rem;
+        border-radius: 0.14rem;
         height: 0.2rem;
-        width: 0.2rem;
+        min-width: 0.2rem;
         background: red;
         color: #fff;
         line-height: 0.2rem;
         text-align: center;
         margin-top: 0.11rem;
+        padding: 0.02rem;
     }
 }
 
