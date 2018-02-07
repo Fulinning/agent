@@ -18,6 +18,12 @@ body {
 p {
   margin: 0; }
 
+input:focus {
+  outline: none; }
+
+::-webkit-scrollbar {
+  display: none; }
+
 header {
   background: #333;
   position: fixed;
@@ -52,8 +58,8 @@ header {
       font-size: 0.12rem;
       color: red;
       position: absolute;
-      left: 0.24rem;
-      top: -0.15rem; }
+      left: 0.25rem;
+      top: -0.04rem; }
     .agent-information > div label {
       margin-left: 0.3rem;
       width: 0.8rem;

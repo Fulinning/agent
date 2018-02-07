@@ -18,6 +18,12 @@ body {
 p {
   margin: 0; }
 
+input:focus {
+  outline: none; }
+
+::-webkit-scrollbar {
+  display: none; }
+
 header {
   background: #333;
   position: fixed;

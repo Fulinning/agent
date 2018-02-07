@@ -20,7 +20,6 @@ body {
 .white-btn {
     padding: 0 0.3rem;
     font-size: 0;
-    margin-right: -0.3rem;
     span {
         background: #fff;
         border-radius: 0.05rem;
@@ -30,7 +29,9 @@ body {
         width: 1.35rem;
         text-align: center;
         float: left;
-        margin-right: 0.3rem;
+        &:first-of-type {
+            margin-right: 0.3rem;
+        }
     }
 }
 
