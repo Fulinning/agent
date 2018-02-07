@@ -1,6 +1,4 @@
-@import "../common/clearform";
-@import "../common/header";
-@import "../common/agent-list";
+
 
 body {
     background: #f2f2f2;
@@ -9,7 +7,7 @@ body {
     height: 0.45rem;
     line-height: 0.45rem;
     border-bottom: 1px solid #ccc;
-    color: $green;
+    color: #00c4b4;
     font-size: 0.14rem;
     #month {
         display: inline-block;
@@ -28,7 +26,7 @@ body {
     border-bottom: 1px solid #ccc;
     height: 0.5rem;
     line-height: 0.5rem;
-    color: $green;
+    color: #00c4b4;
     font-size: 0.14rem;
     padding-left: 0.2rem;
     background: #fff;

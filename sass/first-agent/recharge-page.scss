@@ -1,12 +1,10 @@
-@import "../common/clearform";
-@import "../common/header";
-@import "../common/btn";
+
 body {
     background: #f2f2f2;
 }
 .input-area {
     font-size: 0.15rem;
-    color: $green;
+    color: #00c4b4;
     padding: 0 0.2rem;
     margin: 0.3rem 0; 
     >div {
@@ -18,7 +16,7 @@ body {
             width: 0.75rem;
         }
         input {
-            border: 1px solid $green;
+            border: 1px solid #00c4b4;
             border-radius: 0.05rem;
             height: 0.3rem;
         }

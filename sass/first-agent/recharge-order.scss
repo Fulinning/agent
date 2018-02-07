@@ -1,6 +1,4 @@
-@import "../common/clearform";
-@import "../common/header";
-@import "../common/btn";
+
 body {
     background: #f2f2f2;
 }
@@ -12,13 +10,13 @@ section {
         color: #333;
     }
     .mine-money {
-        color: $green;
+        color: #00c4b4;
     }
     .recharge-money span {
-        color: $green; 
+        color: #00c4b4; 
     }
     .really-money span {
-        color: $green; 
+        color: #00c4b4; 
     }
     .extra-money span {
         background: #fff;

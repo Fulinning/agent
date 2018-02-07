@@ -1,8 +1,4 @@
-@import "../common/clearform";
-@import "../common/header";
-@import "../common/footer";
-@import "../common/tab";
-@import "../common/agent-list";
+
 body {
     background: #f8f8f8;
 }
@@ -11,7 +7,7 @@ body {
     line-height: 0.45rem;
     background: #fff;
     border-bottom: 1px solid #ccc;
-    color: $green;
+    color: #00c4b4;
     font-size: 0.14rem;
     #month {
         display: inline-block;

@@ -1,7 +1,4 @@
-@import "../common/clearform";
-@import "../common/header";
-@import "../common/footer";
-@import "../common/info";
+
 body {
     background: #f2f2f2;
     font-size: 0.13rem;
@@ -17,7 +14,7 @@ section {
         position: absolute;
         right: 0.1rem;
         top: -0.02rem;
-        color: $green;
+        color: #00c4b4;
         font-weight: bold;
     }
     >div .account-number {
@@ -36,7 +33,7 @@ section {
 .info {
     padding: 0;
     span {
-        color: $green;
+        color: #00c4b4;
     }
 }
 
