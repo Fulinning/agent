@@ -113,27 +113,44 @@ header {
     top: 50%;
     left: 50%;
     background: #f2f2f2;
-    padding: 0.2rem;
     transform: translate(-50%, -50%); }
-  .pop-up p {
-    width: 2rem; }
-  .pop-up .btn-area {
+  .pop-up .pop-header {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background: #00c4b4;
+    font-size: 0.16rem;
+    padding: 0 0.1rem;
+    color: #fff;
+    border-radius: 0.06rem 0.06rem 0 0; }
+    .pop-up .pop-header .close {
+      float: right;
+      position: relative;
+      bottom: 0.3rem; }
+  .pop-up .pop-body {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem; }
+    .pop-up .pop-body p {
+      width: 2rem; }
+  .pop-up .pop-footer {
+    padding: 0 0.2rem 0.2rem;
     margin-top: 0.3rem; }
-    .pop-up .btn-area span {
+    .pop-up .pop-footer span {
       display: inline-block;
       width: 0.8rem;
       height: 0.3rem;
       line-height: 0.3rem;
       border-radius: 0.03rem;
       text-align: center; }
-    .pop-up .btn-area .cancel {
+    .pop-up .pop-footer .cancel {
       background: #fff;
       color: #333;
       margin-right: 0.2rem;
       margin-left: 0.1rem; }
-    .pop-up .btn-area .submit {
+    .pop-up .pop-footer .submit {
       background: #00c4b4;
       color: #fff; }
+    .pop-up .pop-footer .simple {
+      margin-left: 0.6rem; }
 
 body {
   background: #f2f2f2; }

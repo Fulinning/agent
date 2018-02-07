@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     >div {
-        border: 1px solid #00c4b4;;
+        border: 1px solid #00c4b4;
         font-size: 0.14rem;
         color: #333;
         border-radius: 0.08rem;
@@ -16,13 +16,31 @@
         top: 50%;
         left: 50%;
         background: #f2f2f2;
-        padding: 0.2rem;
         transform: translate(-50%,-50%);
     }
-    p {
-        width: 2rem;
+    .pop-header {
+        height: 0.3rem;
+        line-height: 0.3rem;
+        background: #00c4b4;
+        font-size: 0.16rem;
+        padding: 0 0.1rem;
+        color: #fff;
+        border-radius: 0.06rem 0.06rem 0 0;
+        .close {
+            float: right;
+            position: relative;
+            bottom: 0.3rem;
+        }
     }
-    .btn-area {
+    .pop-body{
+        margin-top: 0.2rem;
+        padding: 0 0.2rem;
+        p {
+            width: 2rem;
+        }
+    }
+    .pop-footer {
+        padding: 0 0.2rem 0.2rem;
         margin-top: 0.3rem;
         span {
             display: inline-block;
@@ -41,6 +59,9 @@
         .submit {
             background: #00c4b4;;
             color: #fff;
+        }
+        .simple {
+            margin-left: 0.6rem;
         }
     }
 }
