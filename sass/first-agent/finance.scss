@@ -19,14 +19,7 @@ body {
     }
 }
 .agent-list {
-    position: absolute;
-    width: 100%;
-    top: 1.02rem;
-    bottom: 0.51rem;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    overflow-y: scroll;
+    top: 0.97rem;
 }
 .agent-body {
     .consume {
@@ -38,4 +31,9 @@ body {
         box-sizing: border-box;
         padding-left: 0.15rem;
     }
+}
+
+.body {
+    bottom: 0.5rem;
+    overflow: hidden;
 }

@@ -9,13 +9,10 @@
     float: right; }
 
 .agent-list {
-  position: absolute;
-  width: 100%;
-  top: 1.02rem;
-  bottom: 0.51rem;
-  left: 0;
-  right: 0;
+  top: 0.51rem; }
+
+.body {
   overflow: hidden;
-  overflow-y: scroll; }
+  bottom: 0.5rem; }
 
 /*# sourceMappingURL=recharge.css.map */

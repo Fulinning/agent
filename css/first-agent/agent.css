@@ -16,14 +16,10 @@
   .search ::-ms-input-placeholder {
     color: #999; }
 
+.body {
+  bottom: 0.5rem; }
+
 .agent-list {
-  position: absolute;
-  width: 100%;
-  top: 1.52rem;
-  bottom: 0.51rem;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  overflow-y: scroll; }
+  top: 1.03rem; }
 
 /*# sourceMappingURL=agent.css.map */
