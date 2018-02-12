@@ -8,13 +8,14 @@ body {
   border-bottom: 1px solid #ccc;
   color: #00c4b4;
   font-size: 0.14rem; }
-  .top-info #month {
+  .top-info .month {
     display: inline-block;
     height: 0.45rem;
     width: 1rem;
     box-sizing: border-box;
     font-size: 0.14rem;
-    padding-left: 0.2rem; }
+    padding-left: 0.2rem;
+    color: #333; }
 
 .agent-list {
   top: 0.97rem; }
