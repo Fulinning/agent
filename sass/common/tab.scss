@@ -38,6 +38,12 @@
 }
 
 .tab-body {
+    .top-info {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
     margin-top: 0.51rem;
     >div {
         display: none;

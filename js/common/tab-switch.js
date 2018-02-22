@@ -4,4 +4,6 @@ $('.tab-header>div').on('click',function(){
     $('.tab-header>div').eq(n).addClass('active')
     $('.tab-body>div').removeClass('active')
     $('.tab-body>div').eq(n).addClass('active')
+    $('.tab-body .top-info').removeClass('active')
+    $('.tab-body .top-info').eq(n).addClass('active')
 })

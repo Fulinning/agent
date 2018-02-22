@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../font/iconfont.css">
     <link rel="stylesheet" href="../../css/first-agent/common.css">
-    <link rel="stylesheet" href="../../css/first-agent/common.css">
     <link rel="stylesheet" href="../../css/first-agent/finance.css">
     <title>finance</title>
 </head>
@@ -27,8 +26,10 @@
             </div>
         </section>
         <section class="tab-body">
-            <section class="top-info">
-                <span id="target" class="month">请选择时间</span>
+            <section class="top-info active">
+                <div class="input-group">
+                    <input type="text" id="date1" readonly="" placeholder="请选择月份">
+                </div>
                 未出账单:
                 <span class="no-finish-order">10</span>， 我的返佣:
                 <span class="return-money">1000.00</span>元宝
@@ -78,7 +79,9 @@
                 <div class="more">加载更多</div>
             </div>
             <section class="top-info">
-                <span id="target" class="month">请选择时间</span>
+                <div class="input-group">
+                    <input type="text" id="date2" readonly="" placeholder="请选择月份">
+                </div>
                 已出账单:
                 <span class="no-finish-order">10</span>， 我的返佣:
                 <span class="return-money">1000.00</span>元宝
@@ -128,7 +131,6 @@
                 <div class="more">加载更多</div>
             </div>
         </section>
-        <div id="container"></div>
     </div>
     <footer class="clear">
         <div class="agent">
@@ -149,10 +151,18 @@
         </div>
     </footer>
     <script src="../../js/common/jquery-3.3.1.min.js"></script>
+    <script src="../../js/common/iscroll.js"></script>
     <script src="../../js/common/change-fontsize.js"></script>
     <script src="../../js/common/tab-switch.js"></script>
-    <script src="../../js/common/calendar.js"></script>    
-    <script src="../../js/common/calendar-setting.js"></script>    
+    <script src="../../js/common/datePicker.js"></script>
+    <script>
+        $('#date1').datePicker({
+            theme: 'month',
+        });
+        $('#date2').datePicker({
+            theme: 'month',
+        });
+    </script>
 </body>
 
 </html>
