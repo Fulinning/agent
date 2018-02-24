@@ -18,7 +18,13 @@
     </header>
     <div class="body">
         <section class="top-info">
-            <span id="target" class="month">请选择时间</span>
+            <div class="input-group">
+                <input type="text" id="date3" readonly="" placeholder="请选择开始日期">
+            </div>
+            至
+            <div class="input-group">
+                <input type="text" id="date4" readonly="" placeholder="请选择结束日期">
+            </div>
             <span class="player-type">直推玩家</span>
         </section>
         <section class="return-money">
@@ -72,9 +78,17 @@
     </div>
     <div id="container"></div>        
     <script src="../../js/common/jquery-3.3.1.min.js"></script>
+    <script src="../../js/common/iscroll.js"></script>
     <script src="../../js/common/change-fontsize.js"></script>
-    <script src="../../js/common/calendar.js"></script>
-    <script src="../../js/common/calendar-setting.js"></script>
+    <script src="../../js/common/datePicker.js"></script>
+    <script>
+        $('#date3').datePicker({
+            theme: 'date',
+        });
+        $('#date4').datePicker({
+            theme: 'date',
+        });
+    </script>
 </body>
 
 </html>

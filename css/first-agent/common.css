@@ -553,4 +553,14 @@ body {
   background: #ddd;
   /* border-bottom-right-radius: 5px;*/ }
 
+.error {
+  text-align: center;
+  margin-top: 1.2rem; }
+  .error .error-code {
+    font-size: 1rem;
+    color: #00c4b4; }
+  .error .error-text {
+    font-size: 0.24rem;
+    color: #333; }
+
 /*# sourceMappingURL=common.css.map */
